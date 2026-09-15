@@ -1,71 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <title>Huddle landing page with single introductory section</title>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="css/all.min.css" />
-    <!-- Css Style File -->
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- Google Fonts [ Open Sans ] -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Google Fonts [ Poppins ] -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!--<img src="images/bg-desktop.svg" alt="" />
-    <img src="images/bg-mobile.svg" alt="" />
-    <img src="images/favicon-32x32.png" alt="" />-->
-    <!--
-    <img src="images/logo.svg" alt="" />-->
-    <div class="project">
-      <div class="logo">
-        <i class="fa-brands fa-rocketchat"></i><span>Huddle</span>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A responsive Huddle landing page built for a Frontend Mentor challenge.">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <title>Huddle Landing Page | Frontend Mentor</title>
+</head>
+<body>
+  <main class="project">
+    <a class="logo" href="#" aria-label="Huddle home"><i class="fa-brands fa-rocketchat" aria-hidden="true"></i><span>Huddle</span></a>
+    <section class="content">
+      <div class="landing"><img src="images/illustration-mockups.svg" alt="Huddle community interface shown on desktop and mobile screens"></div>
+      <div class="text">
+        <h1>Build The Community Your Fans Will Love</h1>
+        <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+        <a class="register" href="https://www.frontendmentor.io/" target="_blank" rel="noopener noreferrer">Register</a>
       </div>
-      <div class="content">
-        <div class="landing">
-          <img src="images/illustration-mockups.svg" alt="" />
-        </div>
-        <div class="text">
-          <h2>Build The Community Your Fans Will Love</h2>
-          <p>
-            Huddle re-imagines the way we build communities. You have a voice,
-            but so does your audience. Create connections with your users as you
-            engage in genuine discussion.
-          </p>
-          <button>Register</button>
-        </div>
-      </div>
-      <div class="footer">
-        <div class="icon">
-          <i class="fa-brands fa-facebook-f"></i>
-        </div>
-        <div class="icon">
-          <i class="fa-brands fa-twitter"></i>
-        </div>
-        <div class="icon">
-          <i class="fa-brands fa-instagram"></i>
-        </div>
-      </div>
-    </div>
-  </body>
+    </section>
+    <nav class="social" aria-label="Social media">
+      <a href="https://www.facebook.com/" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+      <a href="https://twitter.com/" aria-label="Twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+      <a href="https://www.instagram.com/" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+    </nav>
+  </main>
+</body>
 </html>
